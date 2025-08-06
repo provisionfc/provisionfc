@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dribbling Programs – Pro Vision FC</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Links to an external CSS file -->
+    <script
+      src="https://kit.fontawesome.com/c0cbe5b602.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Pro Vision FC</h1>
+      <nav>
+        <a
+          href="https://www.tiktok.com/@provision.fc?is_from_webapp=1&sender_device=pc"
+        >
+          <i class="fa-brands fa-tiktok fa-xl"></i>
+        </a>
+        <a href="index.html">Home</a>
+        <a href="training.html">Training</a>
+        <a href="contact.html">Free Sign Up</a>
+        <a href="about.html">About</a>
+      </nav>
+
+      <!-- Hamburger Button -->
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+      <!-- Dropdown Menu -->
+      <div class="mobile-dropdown">
+        <a
+          href="https://www.tiktok.com/@provision.fc?is_from_webapp=1&sender_device=pc"
+        >
+          <i class="fa-brands fa-tiktok fa-xl"></i>
+        </a>
+        <a href="index.html">Home</a>
+        <a href="training.html">Training</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Free Sign Up</a>
+      </div>
+    </header>
+    <h1>Agility – Coming Soon</h1>
+    <script>
+      // this is for the mobile dropdown menu
+      // Select button and dropdown menu
+      const menuBtn = document.querySelector(".menu-toggle");
+      const mobileDropdown = document.querySelector(".mobile-dropdown");
+
+      // Toggle dropdown visibility on button click
+      menuBtn.addEventListener("click", () => {
+        mobileDropdown.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro Vision FC</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/c0cbe5b602.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Pro Vision FC</h1>
+      <nav class="nav-links">
+        <a
+          href="https://www.tiktok.com/@provision.fc?is_from_webapp=1&sender_device=pc"
+        >
+          <i class="fa-brands fa-tiktok fa-xl"></i>
+        </a>
+        <a href="training.html">Training</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Free Sign Up</a>
+      </nav>
+      <!-- Hamburger Button -->
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+      <!-- Dropdown Menu -->
+      <div class="mobile-dropdown">
+        <a
+          href="https://www.tiktok.com/@provision.fc?is_from_webapp=1&sender_device=pc"
+        >
+          <i class="fa-brands fa-tiktok fa-xl"></i>
+        </a>
+        <a href="training.html">Training</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Free Sign Up</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h2>Train Smarter. Play Faster.</h2>
+      <p>
+        Welcome to Pro Vision FC — your source for elite soccer tips, drills,
+        and training plans built by a competitive player.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 style="text-align: center; margin-bottom: 2rem">
+        Featured Training Tips
+      </h2>
+      <div class="cards">
+        <div class="card new">
+          <div class="new-banner">New!</div>
+          <a
+            href="dribbling.html"
+            style="text-decoration: none; color: inherit"
+          >
+          <h3>4-Week Dribbling Program</h3>
+          <p>
+              Master ball control and footwork with daily drills used by top
+              academy players.
+          </p>
+          </a>
+        </div>
+
+        <div class="card coming-soon">
+          <!--Make sure to remove coming soon-->
+          <!--<a href="gameiq.html" style="text-decoration: none; color: inherit">-->
+          <div class="coming-soon-banner">Coming Soon</div>
+          <h3>Game IQ Breakdown</h3>
+          <p>
+            Learn how to analyze plays, make better decisions, and read the game
+            like a pro.
+          </p>
+          <!--</a>-->
+        </div>
+
+        
+
+        <div class="card coming-soon">
+          <!-- <a href="agility.html" style="text-decoration: none; color: inherit">-->
+          <div class="coming-soon-banner">Coming Soon</div>
+          <h3>Speed & Agility Circuit</h3>
+          <p>
+            Boost your explosiveness with field-tested sprint and
+            change-of-direction workouts.
+          </p>
+          <!-- </a>-->
+        </div>
+        <div class="card coming-soon">
+          <div class="coming-soon-banner">Coming Soon</div>
+        </div>
+
+        <div class="card coming-soon">
+          <div class="coming-soon-banner">Coming Soon</div>
+        </div>
+
+        <div class="card coming-soon">
+          <div class="coming-soon-banner">Coming Soon</div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Pro Vision FC. All rights reserved.</p>
+    </footer>
+    <script>
+      // this is for the mobile dropdown menu
+      // Select button and dropdown menu
+      const menuBtn = document.querySelector(".menu-toggle");
+      const mobileDropdown = document.querySelector(".mobile-dropdown");
+
+      // Toggle dropdown visibility on button click
+      menuBtn.addEventListener("click", () => {
+        mobileDropdown.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
